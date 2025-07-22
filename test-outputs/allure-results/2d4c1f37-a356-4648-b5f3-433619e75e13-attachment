@@ -1,0 +1,15 @@
+[INFO] - [22-07-2025 16:21:33] - [main] - [com.swaglabs.listeners.TestNGListeners] - Test Execution started
+[INFO] - [22-07-2025 16:21:33] - [main] - [com.swaglabs.utils.PropertiesUtils] - Loaded properties files successfully.
+[ERROR] - [22-07-2025 16:21:34] - [main] - [com.swaglabs.utils.FileUtil] - 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #1: Cannot delete file: test-outputs\Logs\log4_2025-07-22-16-21-105.log]
+[INFO] - [22-07-2025 16:21:34] - [main] - [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[ERROR] - [22-07-2025 16:21:35] - [main] - [io.qameta.allure.util.NamingUtils] - Could not find parameter url
+[INFO] - [22-07-2025 16:21:39] - [main] - [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: user-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: user-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: standard_user in the field: By.id: user-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: password
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: password
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: secret_sauce in the field: By.id: password
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.BrowserActions] - Getting current URL

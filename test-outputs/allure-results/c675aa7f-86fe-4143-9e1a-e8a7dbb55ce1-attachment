@@ -1,0 +1,59 @@
+[INFO] - [22-07-2025 16:21:33] - [main] - [com.swaglabs.listeners.TestNGListeners] - Test Execution started
+[INFO] - [22-07-2025 16:21:33] - [main] - [com.swaglabs.utils.PropertiesUtils] - Loaded properties files successfully.
+[ERROR] - [22-07-2025 16:21:34] - [main] - [com.swaglabs.utils.FileUtil] - 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #1: Cannot delete file: test-outputs\Logs\log4_2025-07-22-16-21-105.log]
+[INFO] - [22-07-2025 16:21:34] - [main] - [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\DELL\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[ERROR] - [22-07-2025 16:21:35] - [main] - [io.qameta.allure.util.NamingUtils] - Could not find parameter url
+[INFO] - [22-07-2025 16:21:39] - [main] - [com.swaglabs.utils.BrowserActions] - Navigated to URL: https://www.saucedemo.com/
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: user-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: user-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: standard_user in the field: By.id: user-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: password
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: password
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: secret_sauce in the field: By.id: password
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.BrowserActions] - Getting current URL
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.listeners.TestNGListeners] - Test case successfulLoginTest passed
+[ERROR] - [22-07-2025 16:21:40] - [main] - [io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.pages.HomePage] - Adding product to cart: Sauce Labs Bike Light
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: [unknown locator]
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: [unknown locator]
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Getting text from element: [unknown locator]text Remove
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: [unknown locator]
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: [unknown locator]
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.pages.HomePage] - Actual value in cart: Remove
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.pages.HomePage] - product added to cart: Sauce Labs Bike Light
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.listeners.TestNGListeners] - Test case addProductToCart passed
+[ERROR] - [22-07-2025 16:21:40] - [main] - [io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.pages.HomePage] - Clicking on cart icon
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.cssSelector: [data-test='shopping-cart-link']
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Getting text from element: By.cssSelector: [data-test='shopping-cart-link']text 1
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.cssSelector: .inventory_item_name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.cssSelector: .inventory_item_name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.cssSelector: .inventory_item_price
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.cssSelector: .inventory_item_price
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.listeners.TestNGListeners] - Test case checkOutProduct passed
+[ERROR] - [22-07-2025 16:21:40] - [main] - [io.qameta.allure.AllureLifecycle] - Could not add attachment: no test is running
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.xpath: //button[@id='checkout']
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: first-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: first-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: amira in the field: By.id: first-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: last-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: last-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: mahmoud in the field: By.id: last-name
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: postal-code
+[INFO] - [22-07-2025 16:21:40] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: postal-code
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Sent keys: 12456 in the field: By.id: postal-code
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: first-name
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: first-name
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Getting text from input field: By.id: first-name text: amira
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: first-name
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: last-name
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: last-name
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Getting text from input field: By.id: last-name text: mahmoud
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: last-name
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.Scrolling] - Scrolling to element: By.id: postal-code
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: postal-code
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Getting text from input field: By.id: postal-code text: 12456
+[INFO] - [22-07-2025 16:21:41] - [main] - [com.swaglabs.utils.ElementActions] - Finding element: By.id: postal-code
