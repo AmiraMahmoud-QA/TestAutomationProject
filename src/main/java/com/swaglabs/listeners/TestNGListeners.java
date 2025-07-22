@@ -1,6 +1,7 @@
 package com.swaglabs.listeners;
 import com.swaglabs.utils.*;
 import io.qameta.allure.*;
+import org.apache.commons.io.FileUtils;
 import org.testng.*;
 
 import java.io.File;
@@ -17,6 +18,9 @@ public class TestNGListeners implements IExecutionListener, ITestListener {
         FileUtil.cleanDirectory(new File("test-outputs/Logs"));
         FileUtil.cleanDirectory(new File("test-outputs/screenshots"));
         FileUtil.cleanDirectory(new File("test-outputs/allure-results"));
+        FileUtil.createDirectoryIfNotExists(new File("test-outputs/Logs"));
+        FileUtil.createDirectoryIfNotExists(new File("test-outputs/screenshots"));
+        FileUtil.createDirectoryIfNotExists(new File("test-outputs/allure-results"));
 
     }
 

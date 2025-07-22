@@ -69,4 +69,17 @@ public static void cleanDirectory(File file){
     }
     }
 
+    public static void createDirectoryIfNotExists(File path) {
+       if (!path.exists()){
+           try {
+               Files.createDirectories(path.toPath());
+               LogsUtil.logInfo("Directory created: " + path.getAbsolutePath());
+           } catch (IOException e) {
+               LogsUtil.logError("Failed to create directory: " + path.getAbsolutePath() + " due to " + e.getMessage());
+           }
+       }
+       else {
+           LogsUtil.logInfo("Directory already exists: " + path.getAbsolutePath());
+       }
+    }
 }

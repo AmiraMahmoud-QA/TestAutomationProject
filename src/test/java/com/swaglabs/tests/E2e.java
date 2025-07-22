@@ -70,6 +70,7 @@ public class E2e { GuiDriver driver;
     }
     @AfterClass public void tearDown() {
         driver.browserActions().closeBrowser();
+
 }
 
 }
